@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deployer", "Deployer\Deploy
 		{6C0AE81D-61EB-4B4A-9CE0-24FF91E99203} = {6C0AE81D-61EB-4B4A-9CE0-24FF91E99203}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{3B3D0BB8-46A4-4A50-8F4A-068FA41F916F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DDF850DF-3301-4F21-AC92-171ED3CD5635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDF850DF-3301-4F21-AC92-171ED3CD5635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDF850DF-3301-4F21-AC92-171ED3CD5635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B3D0BB8-46A4-4A50-8F4A-068FA41F916F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B3D0BB8-46A4-4A50-8F4A-068FA41F916F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B3D0BB8-46A4-4A50-8F4A-068FA41F916F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B3D0BB8-46A4-4A50-8F4A-068FA41F916F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
