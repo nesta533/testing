@@ -61,6 +61,7 @@
     <Compile Include="TestAgentJob.cs" />
     <Compile Include="TestJob.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestJobResult.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

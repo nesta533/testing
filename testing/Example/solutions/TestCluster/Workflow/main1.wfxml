@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<TafWorkflow xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WorkflowID>fa22c678-5b77-47e2-92f8-f577eab497da</WorkflowID>
+  <Versions>
+    <TAFDesigner>3.9.3.0</TAFDesigner>
+    <Plugins>
+      <Plugin>
+        <Name>Standard</Name>
+        <Version>3.9.3.0</Version>
+      </Plugin>
+    </Plugins>
+  </Versions>
+  <Nodes>
+    <SequenceNode>
+      <AssemblyName>Standard</AssemblyName>
+      <ObjectType>LogSetTestCase</ObjectType>
+      <StepClass>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LogSetTestCase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve"&gt;
+  &lt;TestCase&gt;TestCase main1&lt;/TestCase&gt;
+  &lt;TestCaseId&gt;1001&lt;/TestCaseId&gt;
+&lt;/LogSetTestCase&gt;</StepClass>
+      <IsDisabled>false</IsDisabled>
+      <Nodes />
+    </SequenceNode>
+    <SequenceNode>
+      <AssemblyName>Standard</AssemblyName>
+      <ObjectType>ForLoopActor</ObjectType>
+      <StepClass>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ForLoopActor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve" /&gt;</StepClass>
+      <IsDisabled>false</IsDisabled>
+      <Nodes>
+        <SequenceNode>
+          <AssemblyName>Standard</AssemblyName>
+          <ObjectType>LogInfoActor</ObjectType>
+          <StepClass>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LogInfoActor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve"&gt;
+  &lt;Message&gt;Hello Main1 loop count = $%i$&lt;/Message&gt;
+&lt;/LogInfoActor&gt;</StepClass>
+          <IsDisabled>false</IsDisabled>
+          <Nodes />
+        </SequenceNode>
+        <SequenceNode>
+          <AssemblyName>Standard</AssemblyName>
+          <ObjectType>SleepActor</ObjectType>
+          <StepClass>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SleepActor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve"&gt;
+  &lt;MsWait&gt;10000&lt;/MsWait&gt;
+&lt;/SleepActor&gt;</StepClass>
+          <IsDisabled>false</IsDisabled>
+          <Nodes />
+        </SequenceNode>
+      </Nodes>
+    </SequenceNode>
+    <SequenceNode>
+      <AssemblyName>Standard</AssemblyName>
+      <ObjectType>LogPassedActor</ObjectType>
+      <StepClass>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;LogPassedActor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xml:space="preserve"&gt;
+  &lt;Message&gt;Main1 Passed&lt;/Message&gt;
+&lt;/LogPassedActor&gt;</StepClass>
+      <IsDisabled>false</IsDisabled>
+      <Nodes />
+    </SequenceNode>
+  </Nodes>
+  <Parameters />
+  <Returns />
+  <ImportedFrom />
+  <ImportedFromSharedWorkflowVersionID>00000000-0000-0000-0000-000000000000</ImportedFromSharedWorkflowVersionID>
+</TafWorkflow>

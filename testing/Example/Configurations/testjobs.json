@@ -1,0 +1,24 @@
+{
+    "TestJobs":[
+        {
+            "agent":"TAFCommnd.exe",
+            "arguments":"/R C:\\TestCluster\\tafsolution.taf /W main0"
+        },
+        {
+            "agent":"TAFCommnd.exe",
+            "arguments":"/R C:\\TestCluster\\tafsolution.taf /W main1"
+        },
+        {
+            "agent":"TAFCommnd.exe",
+            "arguments":"/R C:\\TestCluster\\tafsolution.taf /W main2"
+        },
+        {
+            "agent":"TAFCommnd.exe",
+            "arguments":"/R C:\\TestCluster\\tafsolution.taf /W main3"
+        },
+        {
+            "agent":"TAFCommnd.exe",
+            "arguments":"/R C:\\TestCluster\\tafsolution.taf /W main4"
+        }
+    ]
+}

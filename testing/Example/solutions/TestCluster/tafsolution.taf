@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<TafSolution xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionVersion>3.6</SolutionVersion>
+  <MainWorkflow>bdc9fa6f-178b-4a08-9b76-4497f59ba43a</MainWorkflow>
+  <SolutionName>TestCluster</SolutionName>
+  <TeamName>taf</TeamName>
+</TafSolution>
